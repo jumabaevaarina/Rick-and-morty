@@ -1,5 +1,7 @@
 const localCard = document.querySelector(".localBox");
 
+
+
  function localCardCreator(location){
     localCard.innerHTML = "";
     location.forEach(local =>{
