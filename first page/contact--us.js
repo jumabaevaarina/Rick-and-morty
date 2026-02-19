@@ -7,13 +7,11 @@ document.body.appendChild(overlay);
 const name = document.getElementById('name');
 const email = document.getElementById('email');
 
-// Открываем модалку
 button.addEventListener('click', () => {
     overlay.classList.add('active');
     form.classList.add('active');
 });
 
-// Закрываем по клику на overlay
 overlay.addEventListener('click', (e) => {
     if (e.target === overlay) {
         overlay.classList.remove('active');
@@ -22,7 +20,6 @@ overlay.addEventListener('click', (e) => {
     }
 });
 
-// Отправка формы
 form.addEventListener('submit', async (e) => {
     e.preventDefault();
 
@@ -35,7 +32,6 @@ form.addEventListener('submit', async (e) => {
     }
 
     try {
-        // Отправка на тестовый бэк (замени URL на свой)
         const response = await fetch('https://jsonplaceholder.typicode.com/posts', {
             method: 'POST',
             headers: {
