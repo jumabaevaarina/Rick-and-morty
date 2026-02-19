@@ -1,0 +1,23 @@
+{
+  "name": "rick-and-morty",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "rick-and-morty"
+  ],
+  "homepage": "https://github.com/jumabaevaarina/Rick-and-morty#readme",
+  "bugs": {
+    "url": "https://github.com/jumabaevaarina/Rick-and-morty/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jumabaevaarina/Rick-and-morty.git"
+  },
+  "license": "ISC",
+  "author": "Arina Jumabaeva",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

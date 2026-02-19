@@ -1,0 +1,21 @@
+body.claro{
+    color: #313234;
+    background-color: #fff;
+}
+ body.claro .prevLocal,body.claro .nextLocal{
+   color: #313234;
+}
+ body.claro .local,body.claro .planetSaibaMais {
+  background-color: #F9F9F9;
+  color: #313234;
+ }
+  body.claro .paginationLocal button{
+  color: #313234;
+  border: 1px #313234 solid;
+ }
+  body.claro .footerTxt{
+  color: #313234;
+ }
+  body.claro .desen svg{
+    color: #fff;
+  }

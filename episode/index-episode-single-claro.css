@@ -1,0 +1,20 @@
+body.claro, body.claro .footerTxt{
+    color: #313234;
+    background-color: #fff;
+}
+body.claro .episode-card-box{
+    background-color: #F9F9F9;
+    color: #313234;
+}
+body.claro .episodeSaibaMais{
+    background-color: transparent;
+    color: #313234;
+}
+body.claro .paginationButtonEpisode{
+   background-color: transparent;
+   border: 1px #313234 solid;
+    color: #313234;
+}
+body.claro .desen svg{
+color: #fff;
+}

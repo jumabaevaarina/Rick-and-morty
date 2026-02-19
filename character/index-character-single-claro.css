@@ -1,0 +1,23 @@
+body.claro{
+color: #313234;
+background-color: #fff;
+}
+body.claro .saibaMais{
+    color: #313234;
+    background-color: transparent;
+}
+body.claro .personagens-card-box,
+body.claro  .local{
+    background-color: #F9F9F9;
+    color: #313234;
+}
+body.claro .paginationButtonCharacter{
+    color: #313234;
+    border: 1px #313234 solid;
+}
+body.claro .footerTxt{
+    color: #313234;
+}
+body.claro .prev svg,body.claro .next svg{
+    color: #313234;
+}
